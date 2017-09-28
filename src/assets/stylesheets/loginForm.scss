@@ -1,0 +1,39 @@
+@import '~react-md/src/scss/react-md';
+@include react-md-everything;
+
+.login-card { 
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  width: 36%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+}
+
+.login-card .md-divider {
+ background: rgba(0, 0, 0, 0.12) !important;
+}
+
+.login-card .error {
+  color: red;
+}
+
+.login-card .md-card-title h2:after {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.login-card #submit-button {
+  margin-top: 20px;
+}
+
+.login-card .login-title {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height:50px;
+  font-weight: bold;
+  font-size: 18px;
+}

@@ -1,0 +1,49 @@
+.nutrition-table__number-column {
+  min-width: 120px;
+
+  &:not(:last-child) {
+    padding-right: 24px;
+  }
+}
+
+.tabcol{
+  width: 20%;
+}
+
+.nutrition-table__percentage-field::after {
+  bottom: 17px;
+  content: '%';
+  position: absolute;
+  right: -8px;
+}
+
+.md-dialog.create-flow-dialog {
+  width:100% !important;
+  height: 800px !important;
+}
+
+.dashboard-table-headder-main {
+  position: relative;
+  width:160px;
+  height:30px;
+  margin-left:40px;
+  margin-top: -55px;
+  margin-bottom: 25px;
+  background-color:#fafafa; 
+  text-align:center;
+  line-height:18px;
+  transform: perspective(250px) rotateX(-30deg);
+  transform-origin: 0% 50%;
+}
+
+.dashboard-table-headder {
+  position: absolute;
+  top: 117px;
+  left: 74px;
+  width: 130px;
+  font-size: 13px !important;
+  font-family: Roboto !important;
+  font-weight: bold;
+  color:black;
+  line-height:18px;
+}

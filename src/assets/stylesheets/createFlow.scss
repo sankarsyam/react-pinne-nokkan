@@ -1,0 +1,33 @@
+.create-flow-component-true {
+  min-height: 200px;
+  position: absolute;
+  background-color: #4A4A4A;
+  bottom: 0px;
+  z-index: 100;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.create-flow-component-false {
+  display: none;
+}
+
+.create-flow-component-footers {
+  width: 100%;
+  border: 2px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  background-color: #4A4A4A;
+}
+
+.create-flow-component-close-btn {
+  color:#FFFFFF !important;
+  float:right;
+  padding-right: 20px;
+}
+
+
+.create-flow-component{
+ max-height: 480px;
+ overflow: auto;
+}

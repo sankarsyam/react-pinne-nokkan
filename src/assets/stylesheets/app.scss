@@ -1,0 +1,15 @@
+@import '~react-md/src/scss/react-md';
+@include react-md-everything;
+
+.card {
+  margin: 16px;
+  padding-top:20px;
+}
+
+.md-text--theme-secondary, .md-floating-label--active {
+  color: #007CFF !important;
+}
+
+.md-background--primary, .md-divider--text-field::after {
+  background: #007CFF !important;
+}
